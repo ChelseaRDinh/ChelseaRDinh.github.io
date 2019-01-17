@@ -51,7 +51,14 @@ body
 
 .intro
 {
-	float: right;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%, -50%);
+	/* float: right; */
 	width: 1200px;
 	padding: 10px;
 }
@@ -62,13 +69,15 @@ h1
 	font-size: 70px;
 	font-family: "Palatino", sans-serif;
 	text-align: center;
-	margin-top: 275px;
+	/* margin-top: 275px; */
 }
 
 .button
 {
-	margin-top: 30px;
-	margin-left: 440px;
+	/* margin-top: 30px; */
+	margin: 30px auto;
+	/* margin: 10px 10px 10px 10px; */
+	/* margin-left: 440px; */
 }
 
 .btn
@@ -103,4 +112,7 @@ h1
 {
 	background-color: rgb(231, 166, 25);
 	transition: all 0.5s ease-in;
+}
+.bio {
+	height: 600px;
 }
