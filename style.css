@@ -94,24 +94,30 @@ h1
 
 .btn-one
 {
+	background: rgb(236, 157, 226);
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: linear;
 	font-family: "Palatino", sans-serif;
 }
 
 .btn-two
 {
+	background: rgb(236, 157, 226);
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: linear;
 	font-family: "Palatino", sans-serif;
 }
 
 .btn-one:hover
 {
-	background-color: rgb(231, 166, 25);
-	transition: all 0.5s ease-in;
+	background-color: rgb(223, 134, 17);
 }
 
 .btn-two:hover
 {
-	background-color: rgb(231, 166, 25);
-	transition: all 0.5s ease-in;
+	background-color: rgb(223, 134, 17);
 }
 .bio {
 	height: 600px;
