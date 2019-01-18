@@ -235,54 +235,15 @@ https://github.com/hongkiat/css3-bounce-effect/blob/master/css/style.css*/
   }
 }
 
-
-
 header
 {
-	background-image:linear-gradient(rgba(228, 148, 74, 0.678),rgba(233, 128, 207, 0.836)), url(geometric_background.jpg);
+	background-image: linear-gradient(rgba(74, 228, 215, 0.678),rgba(196, 233, 128, 0.836)), url(aqua_geometric_background.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 }
 
-.main-nav-bar
-{
-	float: right;
-	list-style: none;
-	margin-top: 30px;
-}
-
-.main-nav-bar li
-{
-	display: inline-block;
-}
-
-.main-nav-bar li a
-{
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: "Palatino", sans-serif;
-	font-size: 15px;
-}
-
-.main-nav-bar li a:hover
-{
-	border: 1px solid white;
-}
-
-body
-{
-	font-family: monospace;
-}
-
-.row
-{
-	max-width: 1200px;
-	margin: auto;
-}
-
-.intro
+.project-title
 {
 	position: absolute;
     top: 40%;
@@ -295,54 +256,6 @@ body
 	-moz-animation: bounce 800ms ease-out;
 	-o-animation: bounce 800ms ease-out;
 	animation: bounce 1.2s ease-out;
-}
-
-.button
-{
-	margin: 30px auto;
-}
-
-.btn
-{
-	border: 1px solid white;
-	padding: 10px 30px;
-	color: white;
-	text-decoration: none;
-	margin-right: 5px;
-	font-size: 13px;
-	font-family: "Palatino", sans-serif;
-	text-transform: uppercase;
-}
-
-.btn-one
-{
-	background: rgb(236, 157, 226);
-	transition-property: background;
-	transition-duration: 1s;
-	transition-timing-function: linear;
-	font-family: "Palatino", sans-serif;
-}
-
-.btn-two
-{
-	background: rgb(236, 157, 226);
-	transition-property: background;
-	transition-duration: 1s;
-	transition-timing-function: linear;
-	font-family: "Palatino", sans-serif;
-}
-
-.btn-one:hover
-{
-	background-color: rgb(223, 134, 17);
-}
-
-.btn-two:hover
-{
-	background-color: rgb(223, 134, 17);
-}
-.bio {
-	height: 600px;
 }
 
 h1
