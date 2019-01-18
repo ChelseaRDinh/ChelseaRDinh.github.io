@@ -290,10 +290,6 @@ body
     text-align: center;
     margin: 0;
     padding: 0;
-    /*transform: translate(-50%, -50%);*/
-	/* float: right; */
-	/*width: 1200px;
-	padding: 10px;*/
 
 	-webkit-animation: bounce 1.2s ease-out;
 	-moz-animation: bounce 800ms ease-out;
