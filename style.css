@@ -297,21 +297,32 @@ body
 	animation: bounce 1.2s ease-out;
 }
 
+.project-title
+{
+	position: absolute;
+    top: 40%;
+	left: 28%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+	-webkit-animation: bounce 1.2s ease-out;
+	-moz-animation: bounce 800ms ease-out;
+	-o-animation: bounce 800ms ease-out;
+	animation: bounce 1.2s ease-out;
+}
+
 h1
 {
-	color: white;
+	color: black;
 	font-size: 70px;
 	font-family: "Palatino", sans-serif;
 	text-align: center;
-	/* margin-top: 275px; */
 }
 
 .button
 {
-	/* margin-top: 30px; */
 	margin: 30px auto;
-	/* margin: 10px 10px 10px 10px; */
-	/* margin-left: 440px; */
 }
 
 .btn
