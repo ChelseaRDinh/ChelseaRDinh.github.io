@@ -5,7 +5,8 @@
 }
 
 /*Adapted from: 
-https://github.com/hongkiat/css3-bounce-effect/blob/master/css/style.css*/
+https://github.com/hongkiat/css3-bounce-effect/blob/master/css/style.css
+*/
 @-webkit-keyframes bounce {
 	0% {
 		-webkit-transform:translateY(-100%);
@@ -245,41 +246,9 @@ header
 	background-position: center;
 }
 
-.main-nav-bar
-{
-	float: right;
-	list-style: none;
-	margin-top: 30px;
-}
-
-.main-nav-bar li
-{
-	display: inline-block;
-}
-
-.main-nav-bar li a
-{
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: "Palatino", sans-serif;
-	font-size: 15px;
-}
-
-.main-nav-bar li a:hover
-{
-	border: 1px solid white;
-}
-
 body
 {
 	font-family: monospace;
-}
-
-.row
-{
-	max-width: 1200px;
-	margin: auto;
 }
 
 .intro
@@ -341,6 +310,52 @@ body
 {
 	background-color: rgb(223, 134, 17);
 }
+
+.fa 
+{
+	padding: 20px;
+  	font-size: 20px;
+  	width: 20px;
+  	text-align: center;
+  	text-decoration: none;
+	border-radius: 50%;
+	top: 65%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+}
+  
+  /* Set a specific color for each brand */
+  
+/* Facebook */
+.fa-facebook 
+{
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	position:absolute;
+	left: 42%;
+}
+
+/* Linkedin */
+.fa-linkedin 
+{
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	position:absolute;
+	left: 47%;
+}
+
+/*instagram*/
+.fa-instagram
+{
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	position:absolute;
+	left: 52%;
+}
+
 .bio {
 	height: 600px;
 }
