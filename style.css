@@ -279,7 +279,7 @@ body
 	text-decoration: none;
 	margin-right: 5px;
 	font-size: 13px;
-	font-family: "Palatino", sans-serif;
+	font-family: "Verdana", sans-serif;
 	text-transform: uppercase;
 }
 
@@ -289,7 +289,7 @@ body
 	transition-property: background;
 	transition-duration: 1s;
 	transition-timing-function: linear;
-	font-family: "Palatino", sans-serif;
+	font-family: "Verdana", sans-serif;
 }
 
 .btn-two
@@ -298,7 +298,7 @@ body
 	transition-property: background;
 	transition-duration: 1s;
 	transition-timing-function: linear;
-	font-family: "Palatino", sans-serif;
+	font-family: "Verdana", sans-serif;
 }
 
 .btn-one:hover
@@ -364,6 +364,6 @@ h1
 {
 	color: white;
 	font-size: 70px;
-	font-family: "Palatino", sans-serif;
+	font-family: "Verdana", sans-serif;
 	text-align: center;
 }
