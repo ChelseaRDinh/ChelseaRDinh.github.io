@@ -1,26 +1,67 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+	
 	<head>
-		<title>Chelsea Dinh</title>
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="style.css" rel="stylesheet" type="text/css">
-		<link rel="icon" type="image/png" href="coffee.png" sizes=16x16>
+		<title>Hello!</title>
+		<meta charset="utf-8">
+		<!--To ensure proper rendering on mobile devices...-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+		<!--Bubble tea icon made by https://www.flaticon.com/authors/mynamepong-->
+		<link rel="icon" type="image/png" href="tea.png" sizes=16x16>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+		<!--Style tag is used to declare stylesheets. Must be in Head tag.-->
+		<style type="text/css">
+
+			h1 {color:#ff008c; font-family: 'Arvo', serif;}
+			h2 {color:#ff008c; font-family: 'Arvo', serif;}
+			h3 {color:#f55511; font-family: 'Arvo', serif;}
+			p {color:#000000; font-family: monospace;}
+
+			.fa:hover {opacity: 0.7;}
+			.btn-primary, .btn-primary:focus {background-color: rgb(193, 163, 230); 
+											border-color: rgb(193, 163, 230); 
+											font-family: monospace;}
+			.btn-primary:hover {background-color: rgb(210, 187, 237); border-color: rgb(210, 187, 237);}
+		
+		</style>
+
 	</head>
+
 	<body>
-		<header>
-			<div class="intro">
-				<h1>Hello, I'm Chelsea.</h1>
-					<div class="button">
-						<a href="resume2019.pdf" target="_blank" class="btn btn-one">Resume</a>
-						<a href="projects.html" target="_blank" class="btn btn-two">Projects</a>
-					</div>
+		
+		<div class="text-center">
+			<div class="container">
+				<h1>Chelsea Dinh</h1>
+				<p>I am a fourth-year computer science student currently studying at the University of Victoria.</p>
+				<p>I enjoy coding, coffee, cookies, and crisp UI.</p>
 			</div>
-			<div class="social-media-buttons">
-				<!--<a href="https://www.facebook.com/chelsearhdinh" target="_blank" class="fa fa-facebook"></a>>-->
-				<a href="https://linkedin.com/in/chelseardinh" target="_blank" class="fa fa-linkedin"></a>
-				<!--<a href="https://instagram.com/mumblebumkins" target="_blank" class="fa fa-instagram"></a>-->
-			</div>
-		</header>
-		<div class = "bio">
 		</div>
+
+		<div class="text-center">
+			<div class="credentials">
+				<div class="btn-group">
+					<a href="resume2019.pdf" target="_blank" button type="button" class="btn btn-primary btn-sm">Check out my Résumé!</button></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center">
+			<div class = "social_media_links">
+				<h3>Say Hello!</h3>
+				<p>Contact me via the following platforms:</p>
+				<div class="btn-group">
+					<a href="https://linkedin.com/in/chelseardinh" target="_blank" button class="btn"><i class="fa fa-linkedin-square" style="font-size:48px;color:#0077B5"></i></button>
+					<a href="https://www.facebook.com/chelsearhdinh" target="_blank" button class="btn"><i class="fa fa-facebook-square" style="font-size:48px;color:#3b5998"></i></button>
+					<a href="https://www.github.com/chelseardinh" target="_blank" button class="btn"><i class="fa fa-github-square" style="font-size:48px;color:black"></i></button>
+				</div>
+			</div>
+		</div>
+
 	</body>
+
 </html>
