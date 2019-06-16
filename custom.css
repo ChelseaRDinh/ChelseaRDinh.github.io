@@ -1,11 +1,25 @@
 body {
   font-family: 'Roboto Slab', serif;
+  text-align: center;
 }
 
 h1 {
   font-size: 60px;
+  color: #2660A4;
+}
+
+h2 {
+  color: #F19953;
+}
+
+h3 {
+  color: #F2D5F8;
+}
+
+h4 {
+  color: #EAC8CA;
 }
 
 p {
-  font-size: 20px;
+  color: #C47335;
 }
