@@ -9,7 +9,6 @@ body {
 
 .container {
   text-align: center;
-  padding: 20px;
 }
 
 .page-header {
@@ -57,4 +56,35 @@ p {
 
 .page-footer {
   background-color: #E3DFFF;
+  padding: 40px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background-color: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background-color: black;
+  color: white;
 }
