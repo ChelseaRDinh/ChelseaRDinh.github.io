@@ -9,16 +9,10 @@ body {
 
 .container {
   text-align: center;
-  padding: 40px;
+  padding: 20px;
 }
 
 .page-header {
-  text-align: center;
-  padding: 20px;
-  margin: 20px;
-}
-
-.intro-header {
   text-align: center;
   background-color: #DA5552;
   padding: 20px;
@@ -48,7 +42,7 @@ body {
 
 h1 {
   font-size: 60px;
-  color: black;
+  color: white;
 }
 
 h2 {
@@ -56,8 +50,12 @@ h2 {
   color: white;
 }
 
+h4 {
+  margin-top: 10px;
+}
+
 h5 {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 p {
