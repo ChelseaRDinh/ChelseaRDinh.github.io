@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto Slab', serif;
-  background-color: #D6CFCB;
 }
 
 .content {
@@ -8,28 +7,45 @@ body {
   max-width: 960px;
 }
 
-.row {
-  padding: 50px;
+.container {
   text-align: center;
+  padding: 20px;
+}
+
+.page-header {
+  width: 100%;
+  text-align: center;
+}
+
+.introduction {
+  background-color: #DA5552;
+}
+
+.about-me {
+  background-color: #DF7373;
+}
+
+.education {
+  background-color: #E39695;
+}
+
+.experience {
+  background-color: #E4B1AB;
 }
 
 h1 {
   font-size: 60px;
-  color: #A6808C;
+  color: black;
 }
 
-h2 {
-  color: #706677;
+h1, h2 {
+  margin-bottom: 20px;
 }
 
-h3 {
-  color: #F2D5F8;
+h2, h3, p {
+  color: white;
 }
 
-h4 {
-  color: #EAC8CA;
-}
-
-p {
-  color: #565264;
+.page-footer {
+  background-color: #E3DFFF;
 }
