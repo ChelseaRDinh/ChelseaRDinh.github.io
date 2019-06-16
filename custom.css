@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+div.container {
+  padding: 20px;
+}
+
 h1 {
   font-size: 60px;
   color: #2660A4;
