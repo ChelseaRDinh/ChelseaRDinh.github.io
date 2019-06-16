@@ -1,19 +1,25 @@
 body {
   font-family: 'Roboto Slab', serif;
-  text-align: center;
+  background-color: #D6CFCB;
 }
 
-div.container {
-  padding: 20px;
+.content {
+  margin: auto;
+  max-width: 960px;
+}
+
+.row {
+  padding: 50px;
+  text-align: center;
 }
 
 h1 {
   font-size: 60px;
-  color: #2660A4;
+  color: #A6808C;
 }
 
 h2 {
-  color: #F19953;
+  color: #706677;
 }
 
 h3 {
@@ -25,5 +31,5 @@ h4 {
 }
 
 p {
-  color: #C47335;
+  color: #565264;
 }
