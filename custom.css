@@ -9,35 +9,41 @@ body {
 
 .container {
   text-align: center;
+  padding: 40px;
 }
 
 .page-header {
   text-align: center;
   padding: 20px;
+  margin: 20px;
 }
 
 .intro-header {
   text-align: center;
   background-color: #DA5552;
   padding: 20px;
+  margin: 20px;
 }
 
 .about-me-header {
   text-align: center;
   background-color: #DF7373;
   padding: 20px;
+  margin: 20px;
 }
 
 .education-header {
   text-align: center;
   background-color: #E39695;
   padding: 20px;
+  margin: 20px;
 }
 
 .experience-header {
   text-align: center;
   background-color: #E4B1AB;
   padding: 20px;
+  margin: 20px;
 }
 
 h1 {
@@ -50,7 +56,12 @@ h2 {
   color: white;
 }
 
+h5 {
+  margin-top: 20px;
+}
+
 p {
+  margin-top: 10px;
   color: black;
 }
 
