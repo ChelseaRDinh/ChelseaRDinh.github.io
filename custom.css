@@ -1,10 +1,10 @@
 body {
   font-family: 'Roboto Slab', serif;
+  background-color: white;
 }
 
 .content {
   margin: auto;
-  max-width: 960px;
 }
 
 .container {
@@ -13,24 +13,32 @@ body {
 }
 
 .page-header {
-  width: 100%;
   text-align: center;
+  padding: 20px;
 }
 
-.introduction {
+.intro-header {
+  text-align: center;
   background-color: #DA5552;
+  padding: 20px;
 }
 
-.about-me {
+.about-me-header {
+  text-align: center;
   background-color: #DF7373;
+  padding: 20px;
 }
 
-.education {
+.education-header {
+  text-align: center;
   background-color: #E39695;
+  padding: 20px;
 }
 
-.experience {
+.experience-header {
+  text-align: center;
   background-color: #E4B1AB;
+  padding: 20px;
 }
 
 h1 {
@@ -38,12 +46,13 @@ h1 {
   color: black;
 }
 
-h1, h2 {
+h2 {
   margin-bottom: 20px;
+  color: white;
 }
 
-h2, h3, p {
-  color: white;
+p {
+  color: black;
 }
 
 .page-footer {
