@@ -15,28 +15,28 @@ body {
 .page-header {
   text-align: center;
   background-color: #DA5552;
-  padding: 20px;
+  padding: 40px;
   margin: 20px;
 }
 
 .about-me-header {
   text-align: center;
   background-color: #DF7373;
-  padding: 20px;
+  padding: 30px;
   margin: 20px;
 }
 
 .education-header {
   text-align: center;
   background-color: #E39695;
-  padding: 20px;
+  padding: 30px;
   margin: 20px;
 }
 
 .experience-header {
   text-align: center;
   background-color: #E4B1AB;
-  padding: 20px;
+  padding: 30px;
   margin: 20px;
 }
 
