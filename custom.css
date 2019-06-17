@@ -16,15 +16,17 @@ body {
   text-align: center;
   background-color: #DA5552;
   padding: 40px;
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  border: 20px solid #D3C0CD;
+  margin: 0 0 40px auto;
 }
 
 .about-me-header {
   text-align: center;
   background-color: #DF7373;
   padding: 30px;
-  width: 80%;
+  width: 70%;
+  border-radius: 15px;
   margin: auto;
 }
 
@@ -32,15 +34,17 @@ body {
   text-align: center;
   background-color: #E39695;
   padding: 30px;
-  width: 70%;
+  width: 60%;
+  border-radius: 15px;
   margin: auto;
 }
 
 .experience-header {
   text-align: center;
   background-color: #E4B1AB;
-  padding: 30px;
-  width: 60%;
+  padding: 20px;
+  width: 50%;
+  border-radius: 15px;
   margin: auto;
 }
 
