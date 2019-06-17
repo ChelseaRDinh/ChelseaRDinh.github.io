@@ -24,17 +24,8 @@ body {
 .about-me-header {
   text-align: center;
   background-color: #DF7373;
-  padding: 30px;
+  padding: 20px;
   width: 70%;
-  border-radius: 15px;
-  margin: auto;
-}
-
-.education-header {
-  text-align: center;
-  background-color: #E39695;
-  padding: 30px;
-  width: 60%;
   border-radius: 15px;
   margin: auto;
 }
@@ -42,6 +33,15 @@ body {
 .experience-header {
   text-align: center;
   background-color: #E4B1AB;
+  padding: 20px;
+  width: 60%;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.education-header {
+  text-align: center;
+  background-color: #E39695;
   padding: 20px;
   width: 50%;
   border-radius: 15px;
