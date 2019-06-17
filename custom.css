@@ -18,7 +18,16 @@ body {
   padding: 40px;
   width: 100%;
   border: 20px solid #D3C0CD;
-  margin: 0 0 40px auto;
+}
+
+.btn-primary {
+  background-color: #E56399;
+  border-style: none;
+  width: 15%;
+}
+
+.btn-primary:hover {
+  background-color: #E55934;
 }
 
 .about-me-header {
