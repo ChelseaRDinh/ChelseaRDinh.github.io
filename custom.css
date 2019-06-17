@@ -80,6 +80,7 @@ p {
   padding: 20px;
   font-size: 30px;
   width: 70px;
+  height: 70px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -104,4 +105,10 @@ p {
 .fa-github {
   background-color: black;
   color: white;
+}
+
+@media (max-width: 767.98px) {
+  .col-sm-4 {
+    padding: 20px;
+  }
 }
