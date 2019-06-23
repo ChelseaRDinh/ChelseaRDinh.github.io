@@ -28,7 +28,14 @@ body {
   color: black;
   width: 100%;
   margin: auto;
-  border-bottom: 5px dotted #0E4749;
+  background-image:
+    radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%),
+    radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%),
+    radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),
+    linear-gradient(40deg, #bd2d10 0, #f4502f 30%, #ff6e51 50%, #f4502f 70%, #bd2d10 100%);
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
 }
 
 .page-header h1 {
@@ -44,7 +51,7 @@ body {
   text-align: center;
   color: black;
   width: 50%;
-  border-bottom: 5px dotted #95C623;
+  border-bottom: 5px dotted #C45BAA;
   margin: auto;
 }
 .about-me-header h2 {
@@ -59,7 +66,7 @@ body {
   text-align: center;
   color: black;
   width: 50%;
-  border-bottom: 5px dotted #EA526F;
+  border-bottom: 5px dotted #C45BAA;
   margin: auto;
 }
 
@@ -75,7 +82,7 @@ body {
   text-align: center;
   color: black;
   width: 50%;
-  border-bottom: 5px dotted #E55812;
+  border-bottom: 5px dotted #C45BAA;
   margin: auto;
 }
 
@@ -92,7 +99,14 @@ body {
 }
 
 .page-footer {
-  background-color: #91A6FF;
+  background-image:
+    radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%),
+    radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%),
+    radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),
+    linear-gradient(40deg, #bd2d10 0, #f4502f 30%, #ff6e51 50%, #f4502f 70%, #bd2d10 100%);
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
   padding: 100px 0 100px;
 }
 
