@@ -13,76 +13,53 @@ body {
 }
 
 .page-header {
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 2px;
   text-align: center;
-  background-color: #DA5552;
+  color: black;
   padding: 40px;
   width: 100%;
   margin: auto;
-  border: 20px solid #D3C0CD;
+  border-bottom: 5px dotted #D3C0CD;
 }
 
-.btn-primary {
-  background-color: #E56399;
-  width: 15%;
-}
-
-.btn-primary:hover {
-  background-color: #E55934;
-}
-
-.about-me {
-  background-color: #E3BAC6;
+.page-header h1 {
+  font-size: 64px;
 }
 
 .about-me-header {
   text-align: center;
-  background-color: #DF7373;
+  color: black;
   padding: 20px;
-  width: 100%;
-  border: 10px solid #BC9EC1;
+  width: 50%;
+  border-bottom: 5px dotted #BC9EC1;
   margin: auto;
 }
 
 .experience-header {
   text-align: center;
-  background-color: #E4B1AB;
+  color: black;
   padding: 20px;
-  width: 70%;
+  width: 50%;
+  border-bottom: 5px dotted #E4B1AB;
   margin: auto;
+}
+
+.experience-text {
+  margin-top: 20px;
 }
 
 .education-header {
   text-align: center;
-  background-color: #E39695;
+  color: black;
   padding: 20px;
-  width: 60%;
+  width: 50%;
+  border-bottom: 5px dotted #E39695;
   margin: auto;
 }
 
-h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 60px;
-  letter-spacing: 3px;
-  color: white;
-}
-
-h2 {
-  color: white;
-  margin: 0;
-}
-
-h4 {
-  margin-top: 10px;
-}
-
-h5 {
-  margin-top: 10px;
-}
-
-p {
-  font-size: 16px;
-  margin-top: 10px;
-  color: black;
+.education-text {
+  margin-top: 20px;
 }
 
 .page-footer {
@@ -125,26 +102,41 @@ p {
   .col-sm-4 {
     padding: 20px;
   }
-}
 
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 30px;
+  .page-header {
+    padding: 30px 0 30px;
+  }
+
+  .about-me-header {
+    width: 100%;
+  }
+
+  .experience-header {
+    width: 100%;
+  }
+
+  .education-header {
+    width: 100%;
+  }
+
+  .page-header h1 {
+    font-size: 40px;
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 30px;
   }
 
   h4 {
-    font-size: 12px;
+    font-size: 25px;
   }
 
   h5 {
-    font-size: 10px;
+    font-size: 20px;
   }
 
-  p {
-    font-size: 8px;
+  h6 {
+    font-size: 18px;
   }
+
 }
