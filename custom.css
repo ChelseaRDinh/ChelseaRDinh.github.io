@@ -177,6 +177,7 @@ p {
 
   .about-me {
     padding: 10px 0 10px;
+    line-height: 1.5;
   }
 
   .about-me-header {
@@ -209,6 +210,18 @@ p {
 
   .page-footer {
     padding: 50px 0 25px;
+  }
+
+  .about-me-header h2 {
+    margin-bottom: 20px;
+  }
+
+  .experience-header h2 {
+    margin-bottom: 20px;
+  }
+
+  .education-header h2 {
+    margin-bottom: 20px;
   }
 
   h2 {
