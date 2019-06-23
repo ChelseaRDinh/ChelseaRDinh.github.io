@@ -99,6 +99,10 @@ body {
   padding: 200px 0 100px;
 }
 
+.contact h1 {
+  margin-bottom: 30px;
+}
+
 .page-footer {
   background-image:
     radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%),
