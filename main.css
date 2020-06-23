@@ -110,6 +110,24 @@ h3, h4 {
 	transform: rotate(45deg) translate(-6px, -8px);
 }
 
+.active .bar-one {
+	-webkit-transform: rotate(-45deg) translate(-5px, 6px);
+	-moz-transform: rotate(-45deg) translate(-5px, 6px);
+	-o-transform: rotate(-45deg) translate(-5px, 6px);
+	transform: rotate(-45deg) translate(-5px, 6px);	
+}	
+
+.active .bar-two {
+	opacity: 0;
+}
+
+.active .bar-three {
+	-webkit-transform: rotate(45deg) translate(-6px, -8px);
+	-moz-transform: rotate(45deg) translate(-6px, -8px);
+	-o-transform: rotate(45deg) translate(-6px, -8px);
+	transform: rotate(45deg) translate(-6px, -8px);
+}
+
 .submit-button {
 	background-color: #b8b8ff;
 	color: white;
