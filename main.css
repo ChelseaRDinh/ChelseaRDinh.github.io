@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: linear-gradient(260deg, #e9afa3 0%, #b8b8ff   100%);
+	color: white;
+	font-weight: 400;
+	// Properties to make navbar sticky
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+}
+
+.navbar-list {
+	display: none;
+	list-style-type: none;
+	font-size: 18px;
+	text-align: center;
+}
+
+.navbar-link li {
+	text-align: center;
+	margin: 15px auto;
+	cursor: pointer;
+}
+
+.navbar-link,
+.navbar-logo {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar-logo {
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 15px;
+	float: left;
+}
+
+.navbar-logo__img {
+	width: 30px;
+}
+
+.navbar-list.active {
+	margin-top: 80px;
+	height: 100vh;
+}
+
+.navbar-list.active {
+	li {
+		margin: 20px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+		height: 70px;
+		align-items: center;
+	}
+
+	.navbar-list {
+		display: flex;
+		margin-right: 30px;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.navbar-list.active {
+		li {
+			margin: 0;
+			font-size: 18px;
+		}
+	}
+
+	.navbar-list.active {
+		margin-top: 0;
+		height: auto;
+	}
+
+	.navbar-list li {
+		margin: 0;
+	}
+
+	.navbar-link {
+		margin-left: 40px;
+	}
+
+	.navbar-logo {
+		margin-top: 0;
+		margin-left: 15px;
+		float: none;
+	}
+
+	.navbar-logo__img {
+		width: 40px;
+	}
+}
