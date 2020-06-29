@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 
+$primary-color: pink;
+$submit-btn-bg-color: orange;
+$submit-btn-color: white;
+
 body, html {
 	margin: 0;
 }
 
 body {
 	height: 100%;
-	font-family: 'Montserrat';
 	font-family: 'Slabo 27px', serif;
 }
 
@@ -70,7 +73,113 @@ header {
 		}
 
 		.read-btn {
-			
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+			background: url('../assets/arrow_right.svg') no-repeat;
+			background-size: 24px;
+			background-position: 0 1px;
+			padding-left: 1.6em;
 		}
+
+		.primary {
+			padding: 1.5em 1.5em 1.5em calc(3em + 25px);
+			background-position: 3em;
+			display: inline-block;
+			margin-top: 3em;
+			margin-left: -3.5em;
+		}
+
+		.clipper {
+			overflow: hidden;
+		}
+	}
+
+	section.hero {
+		padding-top: 8em;
+		background: url('../assets/fruit_monsteras.png');
+		background-size: cover;
+
+		p {
+			width: 70%;
+			font-size: 1.2rem;
+			margin-bottom: 0;
+		}
+
+		h1 {
+			font-size: 2.4rem;
+		}
+	}
+
+	section.sidebar, section.subscribe {
+		font-size: .9rem;
+		line-height: 1.6rem;
+	}
+
+	section.sidebar {
+		background: $primary-color;
+
+		.read-btn {
+			margin-top: 2em;
+			display: block;
+			background-postion: 0 .2em;
+		}
+	}
+
+	section.subscribe {
+		background: yellow;
+
+		input {
+			width: calc(100% - 2em);
+			padding: 1em;
+			font-family: 'Slabo 27px', serif;
+			margin-bottom: 1em;
+		}
+
+		button {
+			width: 100%;
+			background: $submit-btn-bg-color;
+			color: $submit-btn-color;
+			padding: 1em;
+			border: none;
+			font-family: 'Slabo 27px', serif;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 1020px) {
+	header {
+		background: none;
+	}
+
+	.wrapper {
+		grid-template-columns: 70% auto;
+		grid-template-rows: 60% auto;
+		grid-template-areas:
+			"hero featured"
+			"hero subscribe";
+		height: 100vh;
+	}
+
+	section.hero {
+		grid-area: hero;
+	}
+
+	section {
+		display: grid;
+		grid-template-rows: auto;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	html {
+		font-size: 21px;
 	}
 }
