@@ -56,7 +56,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #258ea6;
+  color: #d741a7;
 }
 
 .wrapper {
@@ -94,7 +94,7 @@ header nav ul li a:hover {
 }
 
 .wrapper section .read-btn:hover {
-  color: #258ea6;
+  color: #d741a7;
 }
 
 .wrapper section .primary {
@@ -142,6 +142,15 @@ header nav ul li a:hover {
 
 .wrapper section.contact {
   background: #ff8600;
+}
+
+.wrapper section.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper section.contact a:hover {
+  color: #d741a7;
 }
 
 @media only screen and (min-width: 768px) {

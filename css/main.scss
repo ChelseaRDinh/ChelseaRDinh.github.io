@@ -3,7 +3,7 @@
 
 $primary-color: #cdc1ff;
 $secondary-color: #ff8600;
-$tertiary-color: #258ea6;
+$tertiary-color: #d741a7;
 $background-color: #f4f4f9;
 
 body, html {
@@ -140,6 +140,15 @@ header {
 
 	section.contact {
 		background: $secondary-color;
+
+		a {
+			text-decoration: none;
+			color: black;
+
+			&:hover {
+				color: $tertiary-color;
+			}
+		}
 	}
 }
 
