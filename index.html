@@ -1,96 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Chelsea Dinh</title>
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Chelsea Dinh</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<a href="#" class="logo">Chelsea Dinh</a>
+			<nav>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-	<header>
-		<a href="#" class="logo">Chelsea Dinh</a>
-		<nav>
-			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<div class="wrapper">
-		<section class="hero">
-			<div class="inner">
-				<div class="clipper">
-					<h1>Hello, I'm Chelsea!</h1>
+		<div class="wrapper">
+			<section class="hero">
+				<div class="inner">
+					<div class="clipper">
+						<h1>Hello, I'm Chelsea!</h1>
+					</div>
+					<div class="animation-panel">
+						<p>I am a recent computer science graduate from the University of Victoria.
+						I enjoy creating vector graphics, learning new languages, and web design.
+						</p>
+						<a href="#" class="read-btn primary">Check out my résumé</a>
+					</div>
 				</div>
-				<div class="animation-panel">
-					<p>Sed scelerisque vehicula enim, ut varius mauris mollis vel.</p>
-					<a href="#" class="read-btn primary">Check out my résumé</a>
+			</section>
+
+			<section class="sidebar">
+				<div class="inner">
+					<div class="clipper">
+						<h2>Featured</h2>
+					</div>
+					<div class="animation-panel">
+						<p>Sed scelerisque vehicula enim, ut varius mauris mollis vel.</p>
+						<a href="#" class="read-btn primary">Read More</a>
+					</div>
 				</div>
-			</div>
-		</section>
-
-		<section class="sidebar">
-			<div class="inner">
-				<div class="clipper">
-					<h2>Featured</h2>
+			</section>
+	
+			<section class="contact">
+				<div class="inner">
+					<div class="clipper">
+						<h2>Contact</h2>
+					</div>
+					<div class="animation-panel">
+						<p>Shoot me an email!</p>
+					</div>
 				</div>
-				<div class="animation-panel">
-					<p>Sed scelerisque vehicula enim, ut varius mauris mollis vel.</p>
-					<a href="#" class="read-btn primary">Read More</a>
-				</div>
-			</div>
-		</section>
- 
-		<section class="subscribe">
-			<div class="inner">
-				<div class="clipper">
-					<h2>Subscribe</h2>
-				</div>
-				<div class="animation-panel">
-					<p>Contact me!</p>
-				</div>
-			</div>
-		</section>
-	</div>
+			</section>
+		</div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
-	<script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function(event) {
 
-		document.addEventListener("DOMContentLoaded", function(event) {
+				window.addEventListener("load", function(e) {
 
-			window.addEventListener("load", function(e) {
+					document.body.style.display = "block";
 
-				document.body.style.display = "block";
+					var tl = new TimelineMax();
 
-				var tl = new TimelineMax();
+					tl.staggerFrom('section', 2, {
+						opacity: 0,
+						scale: .5,
+						ease: Power2.easeOut
+					}, 0.2)
 
-				tl.staggerFrom('section', 2, {
-					opacity: 0,
-					scale: .5,
-					ease: Power2.easeOut
-				}, 0.2)
+					tl.staggerFrom('h1, h2', .5, {
+						opacity: 0,
+						y: -40,
+						ease: Power2.easeInOut
+					}, 0.2, "-=2")
 
-				tl.staggerFrom('h1, h2', .5, {
-					opacity: 0,
-					y: -40,
-					ease: Power2.easeInOut
-				}, 0.2, "-=2")
+					tl.staggerFrom('.animation-panel', 1, {
+						opacity: 0,
+						y: -40,
+						ease: Power2.easeInOut
+					}, 0.2, "-=1.5")
 
-				tl.staggerFrom('.animation-panel', 1, {
-					opacity: 0,
-					y: -40,
-					ease: Power2.easeInOut
-				}, 0.2, "-=1.5")
-
-			}, false);
-		});
-
-	</script>
-
-</body>
+				}, false);
+			});
+		</script>
+	</body>
 </html>

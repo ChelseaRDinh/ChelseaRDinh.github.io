@@ -115,7 +115,7 @@ header {
 		}
 	}
 
-	section.sidebar, section.subscribe {
+	section.sidebar, section.contact {
 		font-size: .9rem;
 		line-height: 1.6rem;
 	}
@@ -130,7 +130,7 @@ header {
 		}
 	}
 
-	section.subscribe {
+	section.contact {
 		background: $secondary-color;
 
 		input {
@@ -167,7 +167,7 @@ header {
 		grid-template-rows: 60% auto;
 		grid-template-areas:
 			"hero featured"
-			"hero subscribe";
+			"hero contact";
 		height: 100vh;
 	}
 
