@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+body, html {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  font-family: 'Montserrat';
+  font-family: 'Slabo 27px', serif;
+}
+
+h1, h2 {
+  font-family: 'Ultra', serif;
+}
+
+header {
+  position: absolute;
+  padding: 1em;
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: calc(100% - 2em);
+  background: white;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  padding: 1em;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.wrapper section {
+  padding: 3em;
+}
+
+.wrapper section h1, .wrapper section h2, .wrapper section .read-btn {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.wrapper section h1, .wrapper section h2 {
+  letter-spacing: 1.5px;
+}
+
+.wrapper section h2 {
+  font-size: 1.4rem;
+}
+/*# sourceMappingURL=main.css.map */
