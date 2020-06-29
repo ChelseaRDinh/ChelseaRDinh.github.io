@@ -4,7 +4,7 @@
 $primary-color: #cdc1ff;
 $secondary-color: #ff8600;
 $tertiary-color: #d741a7;
-$background-color: #f4f4f9;
+$background-color: #efbC9b;
 
 body, html {
 	margin: 0;
@@ -83,7 +83,7 @@ header {
 			text-decoration: none;
 			color: black;
 			font-weight: bold;
-			background: url('../assets/arrow_right.svg') no-repeat;
+			background: url('../assets/svgs/arrow_right.svg') no-repeat;
 			background-size: 24px;
 			background-position: 0 1px;
 			padding-left: 1.6em;
@@ -109,8 +109,8 @@ header {
 	section.hero {
 		padding-top: 8em;
 		background: $background-color;
-		// background: url('../assets/fruit_monsteras.png');
-		background-size: cover;
+		background: url('../assets/svgs/fruit_background.svg') no-repeat bottom center;
+		background-size: 300px;
 
 		p {
 			width: 70%;
@@ -135,6 +135,16 @@ header {
 			margin-top: 2em;
 			display: block;
 			background-position: 0 .2em;
+		}
+
+		.linkedin-icon {
+			background: url('../assets/svgs/linkedin.svg');
+			background-size: 24px;
+		}
+
+		.instagram-icon {
+			background: url('../assets/svgs/instagram.svg');
+			background-size: 24px;
 		}
 	}
 
