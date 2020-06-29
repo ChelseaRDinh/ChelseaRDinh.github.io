@@ -12,6 +12,7 @@ body {
 
 h1, h2 {
   font-family: 'Ultra', serif;
+  color: #2b2d42;
 }
 
 header {
@@ -102,7 +103,6 @@ header nav ul li a {
 
 .wrapper section.hero {
   padding-top: 8em;
-  background: url("../assets/fruit_monsteras.png");
   background-size: cover;
 }
 
@@ -122,7 +122,7 @@ header nav ul li a {
 }
 
 .wrapper section.sidebar {
-  background: pink;
+  background: #cdc1ff;
 }
 
 .wrapper section.sidebar .read-btn {
@@ -132,7 +132,7 @@ header nav ul li a {
 }
 
 .wrapper section.subscribe {
-  background: yellow;
+  background: #ff8600;
 }
 
 .wrapper section.subscribe input {

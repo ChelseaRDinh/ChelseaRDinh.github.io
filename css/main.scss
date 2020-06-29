@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 
-$primary-color: pink;
-$submit-btn-bg-color: orange;
-$submit-btn-color: white;
+$primary-color: #cdc1ff;
+$secondary-color: #ff8600;
+$tertiary-color: #258ea6;
+$background-color: #f4f4f9;
 
 body, html {
 	margin: 0;
@@ -17,6 +18,7 @@ body {
 
 h1, h2 {
 	font-family: 'Ultra', serif;
+	color: #2b2d42;
 }
 
 header {
@@ -98,7 +100,8 @@ header {
 
 	section.hero {
 		padding-top: 8em;
-		background: url('../assets/fruit_monsteras.png');
+		background: $background-color;
+		// background: url('../assets/fruit_monsteras.png');
 		background-size: cover;
 
 		p {
@@ -128,7 +131,7 @@ header {
 	}
 
 	section.subscribe {
-		background: yellow;
+		background: $secondary-color;
 
 		input {
 			width: calc(100% - 2em);
