@@ -28,7 +28,7 @@
 				</div>
 				<div class="animation-panel">
 					<p>Sed scelerisque vehicula enim, ut varius mauris mollis vel.</p>
-					<a href="#" class="read-btn primary">Let's chat</a>
+					<a href="#" class="read-btn primary">Check out my résumé</a>
 				</div>
 			</div>
 		</section>
@@ -58,6 +58,19 @@
 			</div>
 		</section>
 	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+	<script>
+		var tl = new TimelineMax();
+
+		tl.from('section', 2, {
+			opacity: 0,
+			scale: .5,
+			ease: Power2.easeOut
+		}, 0.2)
+
+	</script>
 
 </body>
 </html>
