@@ -51,6 +51,10 @@ header {
 
 		li a {
 			padding: 1em;
+
+			&:hover {
+				color: $tertiary-color;
+			}
 		}
 	}
 }
@@ -83,6 +87,10 @@ header {
 			background-size: 24px;
 			background-position: 0 1px;
 			padding-left: 1.6em;
+
+			&:hover {
+				color: $tertiary-color;
+			}
 		}
 
 		.primary {
@@ -126,28 +134,12 @@ header {
 		.read-btn {
 			margin-top: 2em;
 			display: block;
-			background-postion: 0 .2em;
+			background-position: 0 .2em;
 		}
 	}
 
 	section.contact {
 		background: $secondary-color;
-
-		input {
-			width: calc(100% - 2em);
-			padding: 1em;
-			font-family: 'Slabo 27px', serif;
-			margin-bottom: 1em;
-		}
-
-		button {
-			width: 100%;
-			background: $submit-btn-bg-color;
-			color: $submit-btn-color;
-			padding: 1em;
-			border: none;
-			font-family: 'Slabo 27px', serif;
-		}
 	}
 }
 
@@ -167,7 +159,7 @@ header {
 		grid-template-rows: 60% auto;
 		grid-template-areas:
 			"hero featured"
-			"hero contact";
+			"hero subscribe";
 		height: 100vh;
 	}
 
