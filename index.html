@@ -21,6 +21,7 @@
 
 		<div class="wrapper">
 			<section class="hero">
+				<div class="image">
 				<div class="inner">
 					<div class="clipper">
 						<h1>Hello, I'm Chelsea!</h1>
@@ -31,6 +32,7 @@
 						</p>
 						<a href="assets/documents/resume_2020.pdf" target="_blank" class="read-btn primary">Check out my résumé</a>
 					</div>
+				</div>
 				</div>
 			</section>
 
@@ -62,38 +64,7 @@
 				</div>
 			</section>
 		</div>
-
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-
-		<script>
-			document.addEventListener("DOMContentLoaded", function(event) {
-
-				window.addEventListener("load", function(e) {
-
-					document.body.style.display = "block";
-
-					var tl = new TimelineMax();
-
-					tl.staggerFrom('section', 2, {
-						opacity: 0,
-						scale: .5,
-						ease: Power2.easeOut
-					}, 0.2)
-
-					tl.staggerFrom('h1, h2', .5, {
-						opacity: 0,
-						y: -40,
-						ease: Power2.easeInOut
-					}, 0.2, "-=2")
-
-					tl.staggerFrom('.animation-panel', 1, {
-						opacity: 0,
-						y: -40,
-						ease: Power2.easeInOut
-					}, 0.2, "-=1.5")
-
-				}, false);
-			});
-		</script>
+		<script src="/js/stagger.js"></script>
 	</body>
 </html>

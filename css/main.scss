@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 
-$primary-color: #cdc1ff;
-$secondary-color: #ff8600;
-$tertiary-color: #d741a7;
-$background-color: #efbC9b;
+$primary-color: #6874e8;
+$secondary-color: #ffcaaf;
+$tertiary-color: #b9faf8;
+$background-color: #f7dad9;
+$heading-color: #002a32;
 
 body, html {
 	margin: 0;
@@ -18,7 +19,7 @@ body {
 
 h1, h2 {
 	font-family: 'Ultra', serif;
-	color: #2b2d42;
+	color: $heading-color;
 }
 
 header {
@@ -108,9 +109,9 @@ header {
 
 	section.hero {
 		padding-top: 8em;
-		background: $background-color;
-		background: url('../assets/svgs/fruit_background.svg') no-repeat bottom center;
+		background: url('../assets/svgs/fruit_background.svg') no-repeat center;
 		background-size: 300px;
+		background-color: $background-color;
 
 		p {
 			width: 70%;
@@ -120,6 +121,16 @@ header {
 
 		h1 {
 			font-size: 2.4rem;
+		}
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			left: 0px;
+			background:rgba(255,255,255, 0.5);
 		}
 	}
 
@@ -135,16 +146,6 @@ header {
 			margin-top: 2em;
 			display: block;
 			background-position: 0 .2em;
-		}
-
-		.linkedin-icon {
-			background: url('../assets/svgs/linkedin.svg');
-			background-size: 24px;
-		}
-
-		.instagram-icon {
-			background: url('../assets/svgs/instagram.svg');
-			background-size: 24px;
 		}
 	}
 
@@ -177,8 +178,8 @@ header {
 		grid-template-columns: 70% auto;
 		grid-template-rows: 60% auto;
 		grid-template-areas:
-			"hero featured"
-			"hero subscribe";
+			"hero about"
+			"hero contact";
 		height: 100vh;
 	}
 

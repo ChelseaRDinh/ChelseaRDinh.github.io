@@ -12,7 +12,7 @@ body {
 
 h1, h2 {
   font-family: 'Ultra', serif;
-  color: #2b2d42;
+  color: #002a32;
 }
 
 header {
@@ -56,7 +56,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #d741a7;
+  color: #b9faf8;
 }
 
 .wrapper {
@@ -94,7 +94,7 @@ header nav ul li a:hover {
 }
 
 .wrapper section .read-btn:hover {
-  color: #d741a7;
+  color: #b9faf8;
 }
 
 .wrapper section .primary {
@@ -111,9 +111,9 @@ header nav ul li a:hover {
 
 .wrapper section.hero {
   padding-top: 8em;
-  background: #efbC9b;
-  background: url("../assets/svgs/fruit_background.svg") no-repeat bottom center;
+  background: url("../assets/svgs/fruit_background.svg") no-repeat center;
   background-size: 300px;
+  background-color: #f7dad9;
 }
 
 .wrapper section.hero p {
@@ -126,13 +126,23 @@ header nav ul li a:hover {
   font-size: 2.4rem;
 }
 
+.wrapper section.hero:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
 .wrapper section.sidebar, .wrapper section.contact {
   font-size: .9rem;
   line-height: 1.6rem;
 }
 
 .wrapper section.sidebar {
-  background: #cdc1ff;
+  background: #6874e8;
 }
 
 .wrapper section.sidebar .read-btn {
@@ -141,18 +151,8 @@ header nav ul li a:hover {
   background-position: 0 .2em;
 }
 
-.wrapper section.sidebar .linkedin-icon {
-  background: url("../assets/svgs/linkedin.svg");
-  background-size: 24px;
-}
-
-.wrapper section.sidebar .instagram-icon {
-  background: url("../assets/svgs/instagram.svg");
-  background-size: 24px;
-}
-
 .wrapper section.contact {
-  background: #ff8600;
+  background: #ffcaaf;
 }
 
 .wrapper section.contact a {
@@ -161,7 +161,7 @@ header nav ul li a:hover {
 }
 
 .wrapper section.contact a:hover {
-  color: #d741a7;
+  color: #b9faf8;
 }
 
 @media only screen and (min-width: 768px) {
@@ -179,7 +179,7 @@ header nav ul li a:hover {
         grid-template-columns: 70% auto;
     -ms-grid-rows: 60% auto;
         grid-template-rows: 60% auto;
-        grid-template-areas: "hero featured" "hero subscribe";
+        grid-template-areas: "hero about" "hero contact";
     height: 100vh;
   }
   section.hero {
