@@ -28,9 +28,8 @@ header {
 	z-index: 20;
 	display: flex;
 	justify-content: space-between;
-	// Remove padding from both sides of header
 	width: calc(100% - 2em);
-	background: white;
+	background: $background-color;
 
 	a {
 		text-decoration: none;
