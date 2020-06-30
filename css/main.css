@@ -172,6 +172,19 @@ header nav ul li a:hover {
   color: #61210f;
 }
 
+.wrapper section.social .social-media-links {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wrapper section.social .social-media-links a {
+  margin-right: 20px;
+}
+
+.wrapper section.social .social-media-links a:before {
+  font-size: 24px;
+}
+
 @media only screen and (min-width: 768px) {
   html {
     font-size: 18px;
