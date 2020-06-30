@@ -112,7 +112,7 @@ header nav ul li a:hover {
 .wrapper section.hero {
   padding-top: 8em;
   background: url("../assets/svgs/fruit_background.svg") no-repeat center;
-  background-size: 300px;
+  background-size: contain;
   background-color: #f7dad9;
 }
 
