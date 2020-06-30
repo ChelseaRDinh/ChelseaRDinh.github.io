@@ -3,7 +3,7 @@
 
 $primary-color: #6874e8;
 $secondary-color: #ffcaaf;
-$tertiary-color: #b9faf8;
+$tertiary-color: #61210f;
 $background-color: #f7dad9;
 $heading-color: #002a32;
 
@@ -109,9 +109,7 @@ header {
 
 	section.hero {
 		padding-top: 8em;
-		background: url('../assets/svgs/fruit_background.svg') no-repeat center;
-		background-size: contain;
-		background-color: $background-color;
+		background-color: $primary-color;
 
 		p {
 			width: 70%;
@@ -134,22 +132,32 @@ header {
 		}
 	}
 
-	section.sidebar, section.contact {
+	section.image, section.social {
 		font-size: .9rem;
 		line-height: 1.6rem;
 	}
 
-	section.sidebar {
+	section.image {
 		background: $primary-color;
+		background-color: $background-color;
 
 		.read-btn {
 			margin-top: 2em;
 			display: block;
 			background-position: 0 .2em;
 		}
+
+		.inner {
+			text-align: center;
+
+			svg {
+				width: 300px;
+				height: 300px;
+			}
+		}
 	}
 
-	section.contact {
+	section.social {
 		background: $secondary-color;
 
 		a {
@@ -178,8 +186,8 @@ header {
 		grid-template-columns: 70% auto;
 		grid-template-rows: 60% auto;
 		grid-template-areas:
-			"hero about"
-			"hero contact";
+			"hero image"
+			"hero social";
 		height: 100vh;
 	}
 

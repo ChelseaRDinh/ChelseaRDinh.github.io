@@ -56,7 +56,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #b9faf8;
+  color: #61210f;
 }
 
 .wrapper {
@@ -94,7 +94,7 @@ header nav ul li a:hover {
 }
 
 .wrapper section .read-btn:hover {
-  color: #b9faf8;
+  color: #61210f;
 }
 
 .wrapper section .primary {
@@ -111,9 +111,7 @@ header nav ul li a:hover {
 
 .wrapper section.hero {
   padding-top: 8em;
-  background: url("../assets/svgs/fruit_background.svg") no-repeat center;
-  background-size: contain;
-  background-color: #f7dad9;
+  background-color: #6874e8;
 }
 
 .wrapper section.hero p {
@@ -136,32 +134,42 @@ header nav ul li a:hover {
   background: rgba(255, 255, 255, 0.5);
 }
 
-.wrapper section.sidebar, .wrapper section.contact {
+.wrapper section.image, .wrapper section.social {
   font-size: .9rem;
   line-height: 1.6rem;
 }
 
-.wrapper section.sidebar {
+.wrapper section.image {
   background: #6874e8;
+  background-color: #f7dad9;
 }
 
-.wrapper section.sidebar .read-btn {
+.wrapper section.image .read-btn {
   margin-top: 2em;
   display: block;
   background-position: 0 .2em;
 }
 
-.wrapper section.contact {
+.wrapper section.image .inner {
+  text-align: center;
+}
+
+.wrapper section.image .inner svg {
+  width: 300px;
+  height: 300px;
+}
+
+.wrapper section.social {
   background: #ffcaaf;
 }
 
-.wrapper section.contact a {
+.wrapper section.social a {
   text-decoration: none;
   color: black;
 }
 
-.wrapper section.contact a:hover {
-  color: #b9faf8;
+.wrapper section.social a:hover {
+  color: #61210f;
 }
 
 @media only screen and (min-width: 768px) {
@@ -179,7 +187,7 @@ header nav ul li a:hover {
         grid-template-columns: 70% auto;
     -ms-grid-rows: 60% auto;
         grid-template-rows: 60% auto;
-        grid-template-areas: "hero about" "hero contact";
+        grid-template-areas: "hero image" "hero social";
     height: 100vh;
   }
   section.hero {
