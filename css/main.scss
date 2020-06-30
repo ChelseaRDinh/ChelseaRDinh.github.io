@@ -110,7 +110,7 @@ header {
 	section.hero {
 		padding-top: 8em;
 		background: url('../assets/svgs/fruit_background.svg') no-repeat center;
-		background-size: 300px;
+		background-size: contain;
 		background-color: $background-color;
 
 		p {
@@ -163,13 +163,13 @@ header {
 	}
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	html {
 		font-size: 18px;
 	}
 }
 
-@media only screen and (min-width: 1020px) {
+@media screen and (min-width: 1020px) {
 	header {
 		background: none;
 	}
@@ -194,7 +194,7 @@ header {
 	}
 }
 
-@media only screen and (min-width: 1800px) {
+@media screen and (min-width: 1800px) {
 	html {
 		font-size: 21px;
 	}
