@@ -29,7 +29,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	width: calc(100% - 2em);
-	background: $background-color;
 
 	a {
 		text-decoration: none;
@@ -200,10 +199,6 @@ header {
 }
 
 @media only screen and (min-width: 1020px) {
-	header {
-		background: none;
-	}
-
 	.wrapper {
 		grid-template-columns: 70% auto;
 		grid-template-rows: 60% auto;

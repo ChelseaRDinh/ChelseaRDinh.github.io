@@ -26,7 +26,6 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: calc(100% - 2em);
-  background: #f7dad9;
 }
 
 header a {
@@ -195,9 +194,6 @@ header nav ul li a:hover {
 }
 
 @media only screen and (min-width: 1020px) {
-  header {
-    background: none;
-  }
   .wrapper {
     -ms-grid-columns: 70% auto;
         grid-template-columns: 70% auto;
