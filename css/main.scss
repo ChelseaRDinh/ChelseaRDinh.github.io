@@ -179,7 +179,7 @@ header {
 				margin-right: 20px;
 
 				&:before {
-					font-size: 24px;
+					font-size: 30px;
 				}
 			}
 		}
@@ -189,6 +189,14 @@ header {
 @media only screen and (min-width: 768px) {
 	html {
 		font-size: 18px;
+	}
+
+	.social-media-links {
+		a {
+			&:before {
+				font-size: 30px;
+			}
+		}
 	}
 }
 

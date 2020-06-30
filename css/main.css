@@ -182,12 +182,15 @@ header nav ul li a:hover {
 }
 
 .wrapper section.social .social-media-links a:before {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 @media only screen and (min-width: 768px) {
   html {
     font-size: 18px;
+  }
+  .social-media-links a:before {
+    font-size: 30px;
   }
 }
 
